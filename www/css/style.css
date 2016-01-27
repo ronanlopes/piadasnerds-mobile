@@ -1,0 +1,14 @@
+/* Empty. Add your own CSS if you like */
+.bar{
+  background-color: #000050 !important;
+  font-color: #FFF;
+}
+
+.button, .title{
+  color: #FFF !important;
+}
+
+.logo{
+  width:auto;
+  height: 90%;
+}
