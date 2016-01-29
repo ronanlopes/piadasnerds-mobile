@@ -15,20 +15,14 @@
   <ion-side-menu side="left">
     <ion-header-bar class="bar-stable">
       <img class='logo' src='img/logo.png'>
+      <center>
+        <h4 class="logo-text">Piadas Nerds </h4>
+      </center>
     </ion-header-bar>
-    <ion-content>
-      <ion-list>
-        <ion-item menu-close ng-click="login()">
-          Login
-        </ion-item>
-        <ion-item menu-close href="#/app/search">
-          Search
-        </ion-item>
-        <ion-item menu-close href="#/app/browse">
-          Browse
-        </ion-item>
+    <ion-content class="menu-left" ng-controller="TagsCtrl">
+      <ion-list ng-repeat="tag in tags">
         <ion-item menu-close href="#/app/playlists">
-          Playlists
+          <i class="fa fa-fw fa-desktop"></i>{{tag}}
         </ion-item>
       </ion-list>
     </ion-content>

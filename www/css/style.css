@@ -12,3 +12,14 @@
   width:auto;
   height: 90%;
 }
+
+.logo-text{
+  color: #FFF !important;
+  margin-top: 20px !important;
+}
+
+.menu-left, .item, .item-content{
+  background-color: #000025 !important;
+  color: #FFF;
+}
+

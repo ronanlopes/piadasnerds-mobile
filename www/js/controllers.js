@@ -53,4 +53,8 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
+})
+
+.controller('TagsCtrl', function($scope, $stateParams) {
+  $scope.tags = ["Biologia", "Ciências Humanas", "Cultura Nerd", "Física", "Informática", "Química"];
 });
